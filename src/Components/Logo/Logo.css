@@ -1,0 +1,18 @@
+.logo {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-size: 3.375em;
+  transition: transform 5ms;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.linkText {
+  background: linear-gradient(#bf1ff4, #340348);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
