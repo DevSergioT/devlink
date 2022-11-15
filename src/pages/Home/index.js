@@ -74,14 +74,14 @@ export default function Home() {
 
         {links.map((item) => (
 
-          <section key={item.id} className="link-area" style={{ backgroundColor: item.bg }}>
+          <section keys={item.id} className="link-area" style={{ backgroundColor: item.bg }}>
             <a href={item.url} target="blank">
               <p className="link-text" style={{ color: item.color }}>{item.name}</p>
             </a>
           </section>
         ))}
 
-        {links.length !== 0 && Object.key(socialLinks).length > 0 && (
+        {links.length !== 0 && Object.keys(socialLinks).length > 0 && (
           <footer>
             <Social url={socialLinks?.linkedin}>
               <FaLinkedin size={35} color='#0b33cf' />
