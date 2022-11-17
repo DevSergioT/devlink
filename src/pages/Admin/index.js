@@ -137,7 +137,7 @@ export default function Admin() {
 
       {links.map((item, index) => (
         <article
-          key={index}
+          keys={index}
           className='list animate-pop'
           style={{ backgroundColor: item.bg, color: item.color }}>
 
