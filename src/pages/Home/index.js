@@ -4,7 +4,7 @@ import { Social } from "../../Components/Social"
 import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, } from 'react-icons/fa'
 import { getDocs, collection, orderBy, query, doc, getDoc } from 'firebase/firestore'
 import { db } from '../../Services/firebaseConnection'
-
+import { Logoimg } from '../../Components/Logoimg'
 
 export default function Home() {
 
@@ -65,8 +65,8 @@ export default function Home() {
   return (
 
     <div className="home-container">
+      <Logoimg />
 
-      <h1>Sergio<span className="name">Dev</span></h1>
       <span>Veja meus links!🚀🧑‍🚀</span>
 
       <main className="links">
